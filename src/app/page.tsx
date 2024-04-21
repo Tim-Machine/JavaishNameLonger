@@ -155,10 +155,9 @@ export default function Home() {
         toast({
           title: 'Something went wrong',
           description: "I'm too lazy to catch everything, check your api key",
-          status: 'success',
+          status: 'error',
           duration: 9000,
           isClosable: true,
-          status: 'error'
         })
       })
   }
